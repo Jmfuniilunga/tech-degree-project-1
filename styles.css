@@ -284,29 +284,34 @@ background-color: #808080;
 .contact-us-card{
 width: 100%;
 }
-input[type=text], select, textarea {
+input[type=text] {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #ccc;
-  margin-top: 6px;
+  margin-top: 5px;
   margin-bottom: 16px;
   resize: vertical;
 }
-
 input[type=submit] {
-  background-color: #ff4d4d;
-  color: white;
-  padding: 12px 20px;
   border: none;
-  cursor: pointer;
   width: 100%;
-    margin-top: 0;
+  color: white;
+  cursor: pointer;
+  padding: 14px 20px;
+  background-color: #ff4d4d;
+}
 
+textarea{
+  margin-top: 5px;
+  margin-bottom: 16px;
+  resize: vertical;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 input[type=submit]:hover {
   background-color: #ff3333;
-
 }
 
 .flex-2{
